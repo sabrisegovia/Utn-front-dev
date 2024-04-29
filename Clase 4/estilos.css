@@ -1,0 +1,8 @@
+.boxmodel {
+    background-color: aqua;
+    color: brown;
+    width: 100mpx;
+    height: 150mpx;
+    padding: 10px;
+    margin: 20px;
+}
