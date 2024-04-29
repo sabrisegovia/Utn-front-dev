@@ -2,12 +2,17 @@
 
 *{
     font-family: "Exo 2", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 500;
-  font-style: normal;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 10px;
 }
 body {
     color: rgb(5, 0, 71);
+    font-size: large;
+    font-weight: 500;
 }
 
 .lista {
@@ -18,8 +23,36 @@ body {
 #Pie {
     background-color: rgb(109, 5, 5);
     color: rgb(255, 255, 255);
+    font-size: medium;
 }
 .header {
+    background-image: url(./Imágenes/Bib.avif);
+    background-size: auto;
+    background-position: center;
     background-color: rgb(109, 5, 5);
+    padding: 2rem;
+    height: 20vh;
+}
+.menusup {
+    text-align: center;
+    list-style: none;
     color: rgb(255, 255, 255);
+    font-size: medium;
+    font-weight: 900;
+}
+.menusup li {
+    display: inline-block;
+    padding: 3rem;
+}
+.menusup a{
+    text-decoration: wavy;
+    color: aliceblue;
+    font-weight: 900;
+    font-size: 2rem;
+}
+
+.linkabajo a {
+    color: aliceblue;
+    float: inline-end;
+    font-size: 1rem;
 }
