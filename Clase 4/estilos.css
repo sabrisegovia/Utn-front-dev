@@ -1,8 +1,46 @@
-.boxmodel {
-    background-color: aqua;
-    color: brown;
-    width: 100mpx;
-    height: 150mpx;
-    padding: 10px;
-    margin: 20px;
+.menuSuperior{
+    list-style: none;
+    text-align: center;
+    background-color: gray;
+    color: aliceblue;
+    font-size: larger;
+    font-weight: 700;
+
 }
+
+.menuSuperior li{
+    display: inline-block;
+    padding: 3rem;
+    text-decoration: none;
+}
+.menuSuperior a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.box-model{
+    background-color: rgb(88, 1, 1);
+    color: rgba(233, 205, 173, 0.952);
+    font-size: large;
+    width: 25rem;
+    height: auto;
+    padding: 1rem;
+    margin: 2rem;
+    overflow: auto;
+    border: groove 0.5rem rgb(90, 11, 20);
+    display: inline-block;
+}
+
+.box-model2{
+    background-color: rgb(10, 75, 2);
+    color: rgba(173, 233, 176, 0.952);
+    font-size: large;
+    width: 25rem;
+    height: auto;
+    padding: 1rem;
+    margin: 2rem;
+    overflow: auto;
+    border: groove 0.5rem rgb(12, 86, 23);
+    display: inline-block;
+}
+
