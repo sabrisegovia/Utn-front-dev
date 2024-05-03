@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body{
     background-color: darkslategrey;
 }
@@ -39,13 +45,14 @@ body{
     overflow: hidden;
     border: solid 0.5rem rgb(233, 165, 165);
     display: inline-block;
+    
 }
 
 .box_title{
     background-color: rgb(233, 165, 165);
     border: solid 1px rgb(233, 165, 165);
     width: fit-content;
-    height: fit-content;
+    height: 50%;
     color: darkslategray;
     font-size: medium;
     font-weight: 500;
@@ -55,13 +62,17 @@ body{
 
 .contenido{
     padding: 2rem;
-    width: 90%;
+    width: 70%;
     align-content: center;
+    float: left;
+    background-color: darkslategray;
+    line-height: 2.5rem;
 }
 
 .contenido_imagen{
     width: 100%;
     height: 300px;
+    padding: 0.5rem 0rem 1rem 0rem;
 }
 
 .contenido_imagen img{
@@ -70,4 +81,81 @@ body{
     overflow: hidden;
     border-radius: 5px;
     box-shadow: 5px 5px rgba(233, 165, 165, 0.456);
+}
+
+.aside_titulo{
+    text-decoration: underline;
+    font-weight: 800;
+}
+
+.contenido_otros{
+    background-color: rgb(233, 165, 165);
+    color: black;
+    font-size: large;
+    font-weight: 500;
+    display: inline-block;
+    width: 25rem;
+    height: 30%;
+    padding: 2rem;
+    margin: 3rem 3rem 1rem 3rem;
+    border: solid 2px black;
+    line-height: 2rem;
+    float: right;
+}
+
+.video iframe{
+    width: 100%;
+    padding-top: 1rem;
+}
+
+
+/* footer */
+
+#footer{
+    background-color: black;
+    width: 100%;
+    font-display: center;
+    font-size: larger;
+    font-weight: 700;
+    color: aliceblue;
+    line-height: 2rem;
+    clear: both;
+}
+
+
+#footer span{
+    display: inline-block;
+    padding: 5rem;
+}
+
+#footer li{
+    list-style: none;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+#footer a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.news{ 
+    padding: 1rem;
+}
+
+.newsletter{
+    background-color: aliceblue;
+    color: gray;
+    display: inline-block;
+    padding: 3px 300px 3px 3px;
+    width: fit-content;
+    height: fit-content;
+}
+
+.newsletter_button{
+    border: solid 2px aliceblue;
+    display: inline-block;
+    padding: 3px;
+    width: fit-content;
+    height: fit-content;
 }
