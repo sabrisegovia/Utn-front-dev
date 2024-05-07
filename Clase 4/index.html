@@ -8,17 +8,24 @@
 </head>
 <body>
    <header id="header">
-        <nav class="menuSuperior">
-            <ul>
-                <li><a href="menuSuperior">HOME</a></li>
-                <li>MÚSICA</li>
-                <li>NOTICIAS</li>
-                <li>AGENDA</li>
-                <li>CINE Y TV</li>
-                <li>LITERATURA</li>
-                <li>ACTUALIDAD</li>
-            </ul>
-        </nav>
+     <div class="head">   
+        <div class="logo">
+            logo
+        </div>
+        <div>  
+            <nav class="menuSuperior">
+                    <ul>
+                        <li><a href="menuSuperior">HOME</a></li>
+                        <li>MÚSICA</li>
+                        <li>NOTICIAS</li>
+                        <li>AGENDA</li>
+                        <li>CINE Y TV</li>
+                        <li>LITERATURA</li>
+                        <li>ACTUALIDAD</li>
+                    </ul>
+                </nav>
+        </div>       
+     </div>    
    </header>
    
    <section class="contenido">
@@ -43,32 +50,39 @@
                 </div>
                  <p>Charly García: cuándo sale y qué sabemos sobre su nuevo disco, <em>La lógica del escorpión</em></p>
          </div>
+         <div class="box-model">
+            <h2 class="box_title">ESTRENOS</h2>
+                 <div class="contenido_imagen">
+                      <img src="./Imagenes/puan.jpg" alt="puan">
+                 </div>
+                 <p>La película "Puan", de María Alché y Benjamín Naishtat ya está en cines.</p>
+         </div>
     </section>  
 
-
-    <aside class="contenido_otros">
-        <h3 class="aside_titulo">Discos sugeridos de la semana</h3>
-            <div>
-                <ul>
-                    <li><em>Películas</em>- La Máquina de Hacer Pájaros</li>
-                    <li><em>Culcha Vulcha</em>- Snarky Puppy</li>
-                    <li><em>Black Focus</em>- Yussef Kamaal</li>
-                    <li><em>The Fearless Flyers IV</em>- The Fearless Flyers</li>
-                    <li><em>Brumas</em>- Aquelarre</li>
-                </ul>
-            </div>
-    </aside>
-    <aside class="contenido_otros">
-        <h3 class="aside_titulo">Entrevista al Indio Solari</h3>
-            <div class="video">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/gM3WsJeJWmk?si=eeZRNgFyWgH8H8vT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            </div>
-    </aside>
-
+     <div class="aside">
+        <aside class="contenido_otros">
+            <h3 class="aside_titulo">Discos sugeridos de la semana</h3>
+                <div>
+                    <ul>
+                        <li><em>Películas</em>- La Máquina de Hacer Pájaros</li>
+                        <li><em>Culcha Vulcha</em>- Snarky Puppy</li>
+                        <li><em>Black Focus</em>- Yussef Kamaal</li>
+                        <li><em>The Fearless Flyers IV</em>- The Fearless Flyers</li>
+                        <li><em>Brumas</em>- Aquelarre</li>
+                    </ul>
+                </div>
+        </aside>
+        <aside class="contenido_otros">
+            <h3 class="aside_titulo">Entrevista al Indio Solari</h3>
+                <div class="video">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/gM3WsJeJWmk?si=eeZRNgFyWgH8H8vT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+        </aside>
+     </div>
 
     <footer id="footer">
-         <nav>
-             <span>
+        <div class="flexfooter">
+            <div>
                 <ul>ABBEY ROAD EN ESPAÑOL
                     <li><a href="#header">Home</a></li>
                     <li>Música</li>
@@ -78,8 +92,8 @@
                     <li>Literatura</li>
                     <li>Actualidad</li>
                 </ul>
-             </span>
-             <span>
+            </div>
+            <div>
                 <ul>Seguinos en nuestras redes
                     <li><a href="Instagram"></a>Instagram</li>
                     <li><a href="Twitter"></a>Twitter</li>
@@ -87,13 +101,13 @@
                     <li><a href="Youtube"></a>Youtube</li>
                     <li><a href="Tidal"></a>Tidal</li>
                 </ul>
-             </span>
-             <span>
+            </div>
+            <div>
                 <h1 class="news">Suscribite a nuestro newsletter</h1>
                     <h2 class="newsletter">Email</h2>
-                    <h2 class="newsletter_button">Suscríbete</h2>
-             </span>
-         </nav>
+                    <button>Suscribite</button>
+            </div>
+        </div>    
     </footer>
 </body>
 </html>

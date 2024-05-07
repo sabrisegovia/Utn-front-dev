@@ -2,27 +2,44 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
 
 body{
     background-color: darkslategrey;
 }
+
+/* header */
+
+.head{
+    background-color: rgb(0, 0, 0);
+    background-size: 14rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.logo{
+    width: 20%;
+    color: white;
+}
+
 .menuSuperior{
     list-style: none;
     text-align: right;
-    background-color: rgb(0, 0, 0);
-    background-image: url(./Imagenes/logo.png);
-    background-size: 140px;
-    background-repeat: no-repeat;
-    background-position: left padding top 1px;
+    width: 80%;
     color: aliceblue;
     font-size: larger;
     font-weight: 700;
 
 }
 
+.menuSuperior ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
 .menuSuperior li{
-    display: inline-block;
     padding: 3rem;
     text-decoration: none;
     
@@ -50,12 +67,13 @@ body{
 
 .box_title{
     background-color: rgb(233, 165, 165);
-    border: solid 1px rgb(233, 165, 165);
     width: fit-content;
-    height: 50%;
+    height: fit-content;
     color: darkslategray;
     font-size: medium;
-    font-weight: 500;
+    font-weight: 900;
+    border-right: solid 0.3rem rgb(233, 165, 165);
+    border-left: solid 0.3rem rgb(233, 165, 165);
 }
 
 /* contenido */
@@ -67,11 +85,15 @@ body{
     float: left;
     background-color: darkslategray;
     line-height: 2.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+
 }
 
 .contenido_imagen{
     width: 100%;
-    height: 300px;
+    height: 20rem;
     padding: 0.5rem 0rem 1rem 0rem;
 }
 
@@ -80,7 +102,13 @@ body{
     height: 100%;
     overflow: hidden;
     border-radius: 5px;
-    box-shadow: 5px 5px rgba(233, 165, 165, 0.456);
+    box-shadow: 0.5rempx 0.5rem rgba(233, 165, 165, 0.456);
+}
+
+.aside{
+    display: flex;
+    flex-direction: column;
+
 }
 
 .aside_titulo{
@@ -120,21 +148,26 @@ body{
     color: aliceblue;
     line-height: 2rem;
     clear: both;
+    
 }
 
+.flexfooter{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
 
-#footer span{
-    display: inline-block;
+.flexfooter span{
     padding: 5rem;
 }
 
-#footer li{
+.flexfooter li{
     list-style: none;
     text-decoration: none;
     color: aliceblue;
 }
 
-#footer a{
+.flexfooter a{
     text-decoration: none;
     color: aliceblue;
 }
@@ -147,15 +180,8 @@ body{
     background-color: aliceblue;
     color: gray;
     display: inline-block;
-    padding: 3px 300px 3px 3px;
-    width: fit-content;
+    padding: 0.3remp 15rem 0.3rem 0.3rem;
+    width: 80%;
     height: fit-content;
 }
 
-.newsletter_button{
-    border: solid 2px aliceblue;
-    display: inline-block;
-    padding: 3px;
-    width: fit-content;
-    height: fit-content;
-}
