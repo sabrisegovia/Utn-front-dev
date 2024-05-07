@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
+    font-family: "Ubuntu Sans", sans-serif;
 }
 
 body{
@@ -63,6 +63,11 @@ body{
     border: solid 0.5rem rgb(233, 165, 165);
     display: inline-block;
     
+}
+
+.box-model a{
+    color: rgb(233, 165, 165);
+    text-decoration: none;
 }
 
 .box_title{
@@ -131,6 +136,11 @@ body{
     float: right;
 }
 
+.contenido_otros a{
+    color: black;
+    text-decoration: none;
+}
+
 .video iframe{
     width: 100%;
     padding-top: 1rem;
@@ -184,4 +194,3 @@ body{
     width: 80%;
     height: fit-content;
 }
-
