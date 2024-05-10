@@ -1,3 +1,4 @@
+/* configuraciones grid*/
 .grid_container{
     display: grid;
     grid-template-columns: 30% 40% 20%;
@@ -14,7 +15,10 @@
     gap: 2rem;
     padding: 3rem;
 }
-
+.grid_areas{
+     
+}
+/* deco*/
 .caja{
     background-color: white;
     padding: 2rem;
@@ -22,4 +26,20 @@
     border-left: solid 1rem blue;
     border-bottom: solid 1rem yellow;
     border-right: solid 1rem green;
+}
+
+.header{
+    background-color: pink;
+}
+.nav{
+    background-color: rgb(241, 142, 241);
+}
+.section{
+    background-color: rgb(241, 234, 142);
+}
+.aside{
+    background-color: rgba(132, 231, 231, 0.945);
+}
+.footer{
+    background-color: rgb(127, 233, 127);
 }
