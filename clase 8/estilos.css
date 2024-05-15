@@ -1,0 +1,108 @@
+.gradientes{
+    height: 20vh;
+    /* color degradado en el backround*/
+    background-image: linear-gradient(to top, aquamarine, violet);
+}
+
+.boxradial{
+    height: 10rem;
+    width: 10rem;
+    color: black;
+    font-size: medium;
+    background-image: radial-gradient(pink, rgb(235, 235, 159), rgb(230, 181, 92));
+    display: inline-block;
+}
+
+.box1{
+    height: 10rem;
+    width: 10rem;
+    background-color: chocolate;
+    transform: rotate(90deg);
+    transform: rotateZ(70deg);
+    display: inline-block;
+}
+
+.box2{
+    height: 10rem;
+    width: 10rem;
+    background-color: darkblue;
+    transform: skewY(25deg);
+    display: inline-block;
+}
+
+.box3{
+    height: 10rem;
+    width: 10rem;
+    background-color: brown;
+    transition: width 2s;
+    /* propiedad duración*/
+}
+.box3:hover{
+    width: 30rem;
+}
+
+.box4{
+    height: 10rem;
+    width: 10rem;
+    background-color: darkgreen;
+    transition: rotateZ 5s;
+    transition: width 2s, height 2s;
+}
+.box4:hover{
+    transform: rotateZ(120deg);
+}
+
+.input{
+    height: 30%;
+
+    background-color: darkmagenta;
+    transition: all 3s;
+}
+.input:focus{
+    height: 90%;
+    padding: 2rem;
+    background-color: greenyellow;
+}
+
+.ejemplo{
+    width: 100px;
+    height: 100px;
+    background-color: cadetblue;
+    animation-name: holi;
+    animation-duration: 5s;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes holi {
+    0%{width: 100px}
+    25%{width: 150px}
+    50%{width: 200px; background-color: pink;}
+    75%{width: 150px}
+    100%{width: 100px; background-color: yellow}
+}
+
+.titulo{
+    color: black;
+    animation-duration: 2s;
+    animation-name: aparecer;
+    animation-iteration-count: infinite;
+}
+
+@keyframes aparecer {
+    0%{
+        opacity: 0%;
+    }
+    25%{
+        opacity: 25%;
+    }
+    50%{
+        opacity: 50%;
+    }
+    75%{
+        opacity: 75%;
+    }
+    100%{
+        opacity: 100%;
+    }
+}
