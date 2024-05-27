@@ -1,0 +1,28 @@
+.bg-body-custom{
+    background-color: #061b39;
+    color: antiquewhite;
+}
+
+.bg-nav-custom{
+    background-color: #09264f;
+    color: antiquewhite;
+}
+
+.nav__bar{
+    margin: 1rem;
+}
+
+.busqueda{
+    width: 40%;
+}
+
+/* formularios mi-cuenta*/
+.form_acc{
+    width: 40%;
+    margin: 1rem;
+    display: flexbox;
+}
+
+.fieldset-cuenta{
+    border: solid 1px col;
+}

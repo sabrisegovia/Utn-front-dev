@@ -1,0 +1,11 @@
+.navbar{
+    background-color: rgb(10, 59, 10);
+    color: pink;
+    font-weight: 500;
+    width: 100%;
+}
+
+.nav_desplegable{
+    background-color: pink;
+    color: rgb(10, 59, 10);
+}
