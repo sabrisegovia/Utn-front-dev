@@ -1,11 +1,11 @@
 .bg-body-custom{
-    background-color: #061b39;
+    background-color: #272573;
     color: antiquewhite;
 }
 
 .bg-nav-custom{
-    background-color: #09264f;
-    color: antiquewhite;
+    background-color: #171a4a;
+    color: #9f90ea;
 }
 
 .nav__bar{
@@ -17,12 +17,27 @@
 }
 
 /* formularios mi-cuenta*/
+
+.mi-cuenta{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
 .form_acc{
     width: 40%;
     margin: 1rem;
-    display: flexbox;
+    display: inline-block;
 }
 
 .fieldset-cuenta{
-    border: solid 1px col;
+    border: solid 1px antiquewhite;
+}
+
+.legend-cuenta{
+    font-weight: 500;
+    color: antiquewhite;
+}
+
+.forgot-pass{
+    color: orangered;
 }

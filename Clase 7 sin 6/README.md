@@ -1,0 +1,2 @@
+Hola! Desarrollé una página de cine al estilo Netflix y otras plataformas de streaming. Solo funcionan las páginas de inicio y la que es para acceder/regisrtrarse. Utilicé principalmente Bootstrap con customizaciones propias, pero también cree algunos elementos desde 0 utilizando GRID y FlexBox.
+En rasgos generales no me costó realizar el trabajo, solo tuve algunos incovenientes a la hora de 
